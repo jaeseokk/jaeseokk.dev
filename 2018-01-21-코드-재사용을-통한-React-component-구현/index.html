@@ -1,0 +1,397 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style id="typography.js">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:100%/1.75 'PT Sans','Helvetica','Arial',sans-serif;box-sizing:border-box;overflow-y:scroll;}*{box-sizing:inherit;}*:before{box-sizing:inherit;}*:after{box-sizing:inherit;}body{color:hsla(0,0%,0%,0.9);font-family:'PT Sans','Helvetica','Arial',sans-serif;font-weight:400;word-wrap:break-word;font-kerning:normal;-moz-font-feature-settings:"kern", "liga", "clig", "calt";-ms-font-feature-settings:"kern", "liga", "clig", "calt";-webkit-font-feature-settings:"kern", "liga", "clig", "calt";font-feature-settings:"kern", "liga", "clig", "calt";}img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}h1{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:PT Sans,Helvetica,Arial,sans-serif;font-weight:900;text-rendering:optimizeLegibility;font-size:2.5rem;line-height:1.1;}h2{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'PT Sans','Helvetica','Arial',sans-serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1.73286rem;line-height:1.1;}h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'PT Sans','Helvetica','Arial',sans-serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1.4427rem;line-height:1.1;}h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'PT Sans','Helvetica','Arial',sans-serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.1;letter-spacing:0.140625em;text-transform:uppercase;}h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'PT Sans','Helvetica','Arial',sans-serif;font-weight:900;text-rendering:optimizeLegibility;font-size:0.83255rem;line-height:1.1;}h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'PT Sans','Helvetica','Arial',sans-serif;font-weight:900;text-rendering:optimizeLegibility;font-size:0.75966rem;line-height:1.1;font-style:italic;}hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}ul{margin-left:1.75rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;list-style-position:outside;list-style-image:none;list-style:disc;}ol{margin-left:1.75rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;list-style-position:outside;list-style-image:none;}dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}pre{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:0.85rem;line-height:1.75rem;}table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:1rem;line-height:1.75rem;border-collapse:collapse;width:100%;}fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}blockquote{margin-left:-1.75rem;margin-right:1.75rem;margin-top:0;padding-bottom:0;padding-left:1.42188rem;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:1.20112rem;line-height:1.75rem;color:hsla(0,0%,0%,0.59);font-style:italic;border-left:0.32813rem solid hsla(0,0%,0%,0.9);}form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(1.75rem - 1px);background:hsla(0,0%,0%,0.2);border:none;height:1px;}address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}b{font-weight:700;}strong{font-weight:700;}dt{font-weight:700;}th{font-weight:700;}li{margin-bottom:calc(1.75rem / 2);}ol li{padding-left:0;}ul li{padding-left:0;}li > ol{margin-left:1.75rem;margin-bottom:calc(1.75rem / 2);margin-top:calc(1.75rem / 2);}li > ul{margin-left:1.75rem;margin-bottom:calc(1.75rem / 2);margin-top:calc(1.75rem / 2);}blockquote *:last-child{margin-bottom:0;}li *:last-child{margin-bottom:0;}p *:last-child{margin-bottom:0;}li > p{margin-bottom:calc(1.75rem / 2);}code{font-size:0.85rem;line-height:1.75rem;}kbd{font-size:0.85rem;line-height:1.75rem;}samp{font-size:0.85rem;line-height:1.75rem;}abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;text-decoration:none;}thead{text-align:left;}td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding-left:1.16667rem;padding-right:1.16667rem;padding-top:0.875rem;padding-bottom:calc(0.875rem - 1px);}th:first-child,td:first-child{padding-left:0;}th:last-child,td:last-child{padding-right:0;}blockquote > :last-child{margin-bottom:0;}blockquote cite{font-size:1rem;line-height:1.75rem;color:hsla(0,0%,0%,0.9);font-weight:400;}blockquote cite:before{content:"— ";}ul,ol{margin-left:0;}@media only screen and (max-width:480px){ul,ol{margin-left:1.75rem;}blockquote{margin-left:-1.3125rem;margin-right:0;padding-left:0.98438rem;}}h1,h2,h3,h4,h5,h6{margin-top:3.5rem;}a{box-shadow:0 1px 0 0 currentColor;color:#007acc;text-decoration:none;}a:hover,a:active{box-shadow:none;}mark,ins{background:#007acc;color:white;padding:0.10938rem 0.21875rem;text-decoration:none;}.title a:hover{text-decoration:underline;}a.gatsby-resp-image-link{box-shadow:none;}</style><style data-href="/styles.5f170cc0884e95990337.css">@font-face{font-family:Abril Fatface;font-style:normal;font-display:swap;font-weight:400;src:local("Abril Fatface Regular "),local("Abril Fatface-Regular"),url(/static/abril-fatface-latin-400-5a0942575703a294a74a6341bdcdde2a.woff2) format("woff2"),url(/static/abril-fatface-latin-400-9d61ee7eb9108e20d74775fa6a75554b.woff) format("woff")}</style><meta name="generator" content="Gatsby 2.1.30"/><link rel="alternate" type="application/rss+xml" href="/rss.xml"/><link rel="shortcut icon" href="/icons/icon-48x48.png"/><link rel="manifest" href="/manifest.webmanifest"/><meta name="theme-color" content="#663399"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png"/><title data-react-helmet="true">HOC, Render props와 함께 개선된 React component 구현하기 | jaeseokk.log</title><meta data-react-helmet="true" name="description" content="여러 React component를 구현하다보면 component간 중복되는 코드가 나타나기 시작하고 이러한 코드들을 보다 효율적이고 깔끔하게 관리하고 싶은 욕구가 생기게 된다. 이와 같은 문제는 공통된 코드를 재사용하거나 공통된 관심사를 분리함으로써 해결할 수 있는데, React…"/><meta data-react-helmet="true" property="og:title" content="HOC, Render props와 함께 개선된 React component 구현하기"/><meta data-react-helmet="true" property="og:description" content="여러 React component를 구현하다보면 component간 중복되는 코드가 나타나기 시작하고 이러한 코드들을 보다 효율적이고 깔끔하게 관리하고 싶은 욕구가 생기게 된다. 이와 같은 문제는 공통된 코드를 재사용하거나 공통된 관심사를 분리함으로써 해결할 수 있는데, React…"/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:creator" content="Jaeseok Kang"/><meta data-react-helmet="true" name="twitter:title" content="HOC, Render props와 함께 개선된 React component 구현하기"/><meta data-react-helmet="true" name="twitter:description" content="여러 React component를 구현하다보면 component간 중복되는 코드가 나타나기 시작하고 이러한 코드들을 보다 효율적이고 깔끔하게 관리하고 싶은 욕구가 생기게 된다. 이와 같은 문제는 공통된 코드를 재사용하거나 공통된 관심사를 분리함으로써 해결할 수 있는데, React…"/><link href="//fonts.googleapis.com/css?family=Montserrat:700|Merriweather:400,400i,700,700i,900,900i" rel="stylesheet" type="text/css"/><link as="script" rel="preload" href="/webpack-runtime-5c0b89595b5ea613eefc.js"/><link as="script" rel="preload" href="/styles-bd5bbf25ac9c5840e2e5.js"/><link as="script" rel="preload" href="/app-08bf93dbe1817a5fe53a.js"/><link as="script" rel="preload" href="/0-615ae0ea6b40203eb5b6.js"/><link as="script" rel="preload" href="/component---src-templates-blog-post-js-4a9db2c0dff77452247a.js"/><link as="fetch" rel="preload" href="/static/d/352/path---2018-01-21-코드-재사용을-통한-react-component-구현-9-b-3-717-i7372cm8awpwG5H6drYtYmv5Kk.json" crossorigin="use-credentials"/></head><body><noscript id="gatsby-noscript">This app works best with JavaScript enabled.</noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group"><div style="margin-left:auto;margin-right:auto;max-width:47.25rem;padding:2.625rem 1.3125rem"><header><h1 style="font-size:3.95285rem;line-height:4.375rem;margin-bottom:2.625rem;margin-top:0;text-align:center;font-family:&quot;Abril Fatface&quot;, serif;font-weight:700"><a style="box-shadow:none;text-decoration:none;color:inherit" href="/">jaeseokk.log</a></h1></header><main><h1>HOC, Render props와 함께 개선된 React component 구현하기</h1><p style="font-size:0.83255rem;line-height:1.75rem;display:block;margin-bottom:1.75rem;margin-top:-1.75rem">January 21, 2018</p><div><p>여러 React component를 구현하다보면 component간 중복되는 코드가 나타나기 시작하고 이러한 코드들을 보다 효율적이고 깔끔하게 관리하고 싶은 욕구가 생기게 된다. 이와 같은 문제는 공통된 코드를 재사용하거나 공통된 관심사를 분리함으로써 해결할 수 있는데, React에서 이를 적용할 수 있는 대표적인 구현 패턴 2가지, ‘HOC(Higher Order Component)’, ‘render props’에 대해 알아보기로 한다.</p>
+<h2>Higher Order Component</h2>
+<blockquote>
+<p>Concretely, a higher-order component is a function that takes a component and returns a new component.</p>
+</blockquote>
+<p>React 공식 문서에 나온 HOC에 관한 설명이다. 말 그대로 HOC는 어떠한 component를 취하여 새로운 component를 반환하는 함수이다.
+코드로 표현하면 아래와 같다.</p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">const</span> EnhancedComponent <span class="token operator">=</span> <span class="token function">hoc</span><span class="token punctuation">(</span>WrappedComponent<span class="token punctuation">,</span> <span class="token operator">...</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre></div>
+<p><code class="language-text">hoc()</code>함수가 <code class="language-text">WrappedComponent</code>와 혹은 그 외 값을 인자로 받고 새로운 component를 <code class="language-text">EnhancedComponent</code>에 반환해주고 있다. 재사용이 필요한 component를 함수 인자로 넣어주면 필요한 로직을 추가로 구성한 새로운 component가 반환되는 것이다.</p>
+<h3>hoc 활용 예시</h3>
+<p>어떤 component들에 특정 react life-cycle에서 로깅을 하는 로직을 추가한다고 가정해보자.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">class</span> <span class="token class-name">Component1</span> <span class="token keyword">extends</span> <span class="token class-name">React<span class="token punctuation">.</span>Component</span> <span class="token punctuation">{</span>
+  <span class="token function">componentDidMount</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'Component did mount'</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token function">componentWillReceiveProps</span><span class="token punctuation">(</span>nextProps<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'Component will receive Props'</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token function">componentWillUnmount</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'Component will unmount'</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token operator">&lt;</span>div<span class="token operator">></span>This is Component1<span class="token punctuation">.</span><span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">class</span> <span class="token class-name">Component2</span> <span class="token keyword">extends</span> <span class="token class-name">React<span class="token punctuation">.</span>Component</span> <span class="token punctuation">{</span>
+  <span class="token function">componentDidMount</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'Component did mount'</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token function">componentWillReceiveProps</span><span class="token punctuation">(</span>nextProps<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'Component will receive Props'</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token function">componentWillUnmount</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'Component will unmount'</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token operator">&lt;</span>div<span class="token operator">></span>This is Component2<span class="token punctuation">.</span><span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p><code class="language-text">Component1</code>과 <code class="language-text">Component2</code>는 각각 <code class="language-text">componentDidMount()</code>, <code class="language-text">componentWillReceiveProps()</code>, <code class="language-text">componentWillUnmount()</code>라는 react life-cycle api를 통해 로깅을 하는 동일한 코드를 갖고 있다. HOC를 이용하여 공통 코드를 분리하여 코드를 다시 작성해보면 아래와 같다.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">class</span> <span class="token class-name">Component1</span> <span class="token keyword">extends</span> <span class="token class-name">React<span class="token punctuation">.</span>Component</span> <span class="token punctuation">{</span>
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token operator">&lt;</span>div<span class="token operator">></span>This is Component1<span class="token punctuation">.</span><span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">class</span> <span class="token class-name">Component2</span> <span class="token keyword">extends</span> <span class="token class-name">React<span class="token punctuation">.</span>Component</span> <span class="token punctuation">{</span>
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token operator">&lt;</span>div<span class="token operator">></span>This is Component2<span class="token punctuation">.</span><span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">const</span> <span class="token function-variable function">withLogging</span> <span class="token operator">=</span> WrappedComponent <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token keyword">class</span> <span class="token class-name">extends</span> React<span class="token punctuation">.</span>Component <span class="token punctuation">{</span>
+    <span class="token function">componentDidMount</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'Component did mount'</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token function">componentWillReceiveProps</span><span class="token punctuation">(</span>nextProps<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'Component will receive Props'</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token function">componentWillUnmount</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'Component will unmount'</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">return</span> <span class="token operator">&lt;</span>WrappedComponent <span class="token punctuation">{</span><span class="token operator">...</span><span class="token keyword">this</span><span class="token punctuation">.</span>props<span class="token punctuation">}</span> <span class="token operator">/</span><span class="token operator">></span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">const</span> Component1WithLogging <span class="token operator">=</span> <span class="token function">withLogging</span><span class="token punctuation">(</span>Component1<span class="token punctuation">)</span>
+<span class="token keyword">const</span> Component2WithLogging <span class="token operator">=</span> <span class="token function">withLogging</span><span class="token punctuation">(</span>Component2<span class="token punctuation">)</span></code></pre></div>
+<p>이전 코드와 달라진 점을 확인해보면, <code class="language-text">withLogging()</code>에서 react component를 인자로 받고 중복되는 코드였던 로깅 로직을 추가 구성한 새로운 컴포넌트를 반환하도록 구현하고, <code class="language-text">Component1</code>과 <code class="language-text">Component2</code>를 넣어주어 로깅 로직이 포함된 <code class="language-text">Component1WithLogging</code>과 <code class="language-text">Component2WithLogging</code>을 만들었다. HOC를 활용하니 중복된 코드가 제거되고 한결 간결해진 것을 알 수 있다. 또한 <code class="language-text">Component1</code>, <code class="language-text">Component2</code> 외에 해당 로직이 필요한 component가 생긴다면 해당 코드를 또 작성할 필요 없이 <code class="language-text">withLogging()</code>을 이용하여 생성하면 된다.</p>
+<h3>변경(mutation)이 아닌 구성(composition)으로</h3>
+<p>여기서 중요한 점은 HOC가 입력받은 component를 변경하여 반환하는 것이 아니라 새로운 component로 구성하여 반환한다는 것이다. 만약 <code class="language-text">withLogging()</code>이 아래와 코드와 같이 입력받은 component의 필드에 직접 접근, 변경하여 로깅 로직이 추가된 컴포넌트를 반환했다면, 해당 로직이 포함된 component를 구현할 순 있어도 입력한 component는 이미 변경되어버려서 재사용하기 어려워질 뿐 아니라 또다른 HOC와 함께 사용할 시 충돌이 발생할 가능성이 생기게 된다.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">const</span> <span class="token function-variable function">withLogging</span> <span class="token operator">=</span> WrappedComponent <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token comment">/*
+    입력받은 component를 직접 변경.
+    입력받은 component나 이전에 수행된 HOC에서 구현된 로직들이 overridde 되어버림.
+    */</span>
+  WrappedComponent<span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function-variable function">componentDidMount</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'Component did mount'</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+
+  WrappedComponent<span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function-variable function">componentWillReceiveProps</span> <span class="token operator">=</span> nextProps <span class="token operator">=></span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'Component will receive Props'</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+
+  WrappedComponent<span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function-variable function">componentWillUnmount</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'Component will unmount'</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token keyword">return</span> WrappedComponent
+<span class="token punctuation">}</span></code></pre></div>
+<p>따라서 재사용성을 가지고 있고 여러 HOC들과 조합하여 사용 가능한 HOC를 위해서는 component를 변경하여 반환하는 것이 아닌 component를 새롭게 구성(composition)하여 반환하도록 구현 해야한다.</p>
+<h2>Render Props</h2>
+<blockquote>
+<p>The term “render prop” refers to a simple technique for sharing code between React components using a prop whose value is a function.</p>
+</blockquote>
+<p>역시 React 공식 문서에 나와있는 ‘render props’에 관한 설명이다. render props는 component의 props로 또다른 component를 반환하는 function을 넣어줌으로써 코드를 재사용하는 기법이다. props의 이름은 어떤것으로 하든 상관 없지만 주로 <code class="language-text">render</code>라는 이름을 쓰거나 component의 children 요소로 넣어준다.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">// render props를 'render'라는 이름의 props로 넣어준 경우</span>
+<span class="token operator">&lt;</span>ComponentHasRenderProps render<span class="token operator">=</span><span class="token punctuation">{</span>something <span class="token operator">=></span> <span class="token punctuation">(</span>
+  <span class="token operator">&lt;</span>div<span class="token operator">></span>
+    <span class="token punctuation">{</span>something<span class="token punctuation">}</span>
+  <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
+<span class="token punctuation">)</span><span class="token punctuation">}</span> <span class="token operator">/</span><span class="token operator">></span>
+
+<span class="token comment">// render props를 component의 children 요소로 넣어준 경우</span>
+<span class="token operator">&lt;</span>ComponentHasRenderProps<span class="token operator">></span>
+    <span class="token punctuation">{</span>something <span class="token operator">=></span> <span class="token punctuation">(</span>
+        <span class="token operator">&lt;</span>div<span class="token operator">></span>
+            <span class="token punctuation">{</span>something<span class="token punctuation">}</span>
+        <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
+    <span class="token punctuation">)</span><span class="token punctuation">}</span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>ComponentHasRenderProps<span class="token operator">></span></code></pre></div>
+<h3>Render props 활용 예시</h3>
+<p>현재 페이지 상태를 노출하고 있고, selector element를 클릭 했을때 이전 혹은 다음 페이지 상태로 변경하는 <code class="language-text">Navigator</code> component를 구현한다고 가정해보자.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">class</span> <span class="token class-name">Navigator</span> <span class="token keyword">extends</span> <span class="token class-name">React<span class="token punctuation">.</span>Component</span> <span class="token punctuation">{</span>
+  <span class="token keyword">static</span> propTypes <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token keyword">default</span><span class="token punctuation">:</span> PropTypes<span class="token punctuation">.</span>number<span class="token punctuation">,</span>
+    min<span class="token punctuation">:</span> PropTypes<span class="token punctuation">.</span>number<span class="token punctuation">,</span>
+    max<span class="token punctuation">:</span> PropTypes<span class="token punctuation">.</span>number<span class="token punctuation">,</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token keyword">static</span> defaultProps <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token keyword">default</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+    min<span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+    max<span class="token punctuation">:</span> <span class="token number">10</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token function">constructor</span><span class="token punctuation">(</span>props<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">super</span><span class="token punctuation">(</span>props<span class="token punctuation">)</span>
+
+    <span class="token keyword">this</span><span class="token punctuation">.</span>state <span class="token operator">=</span> <span class="token punctuation">{</span>
+      current<span class="token punctuation">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>props<span class="token punctuation">.</span><span class="token keyword">default</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">this</span><span class="token punctuation">.</span>onPrevSelectorClick <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>onSelectorClick<span class="token punctuation">.</span><span class="token function">bind</span><span class="token punctuation">(</span><span class="token keyword">null</span><span class="token punctuation">,</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>onNextSelectorClick <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>onSelectorClick<span class="token punctuation">.</span><span class="token function">bind</span><span class="token punctuation">(</span><span class="token keyword">null</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token function-variable function">onSelectorClick</span> <span class="token operator">=</span> changeAmount <span class="token operator">=></span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">setState</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      current<span class="token punctuation">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>current <span class="token operator">+</span> changeAmount<span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">(</span>
+      <span class="token operator">&lt;</span>div<span class="token operator">></span>
+        <span class="token operator">&lt;</span>button
+          onClick<span class="token operator">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>onPrevSelectorClick<span class="token punctuation">}</span>
+          disabled<span class="token operator">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>current <span class="token operator">===</span> <span class="token keyword">this</span><span class="token punctuation">.</span>props<span class="token punctuation">.</span>min<span class="token punctuation">}</span>
+        <span class="token operator">></span>
+          <span class="token punctuation">{</span><span class="token string">'prev'</span><span class="token punctuation">}</span>
+        <span class="token operator">&lt;</span><span class="token operator">/</span>button<span class="token operator">></span>
+        <span class="token operator">&lt;</span>span<span class="token operator">></span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>current<span class="token punctuation">}</span><span class="token operator">&lt;</span><span class="token operator">/</span>span<span class="token operator">></span>
+        <span class="token operator">&lt;</span>button
+          onClick<span class="token operator">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>onNextSelectorClick<span class="token punctuation">}</span>
+          disabled<span class="token operator">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>current <span class="token operator">===</span> <span class="token keyword">this</span><span class="token punctuation">.</span>props<span class="token punctuation">.</span>max<span class="token punctuation">}</span>
+        <span class="token operator">></span>
+          <span class="token punctuation">{</span><span class="token string">'next'</span><span class="token punctuation">}</span>
+        <span class="token operator">&lt;</span><span class="token operator">/</span>button<span class="token operator">></span>
+      <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
+    <span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">class</span> <span class="token class-name">App</span> <span class="token keyword">extends</span> <span class="token class-name">React<span class="token punctuation">.</span>Component</span> <span class="token punctuation">{</span>
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token operator">&lt;</span>Navigator <span class="token operator">/</span><span class="token operator">></span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>위 코드에서 <code class="language-text">Navigator</code>의 <code class="language-text">render()</code>를 보면, <code class="language-text">this.state.current</code>로 현재 상태를 노출해주고 있고 <code class="language-text">&lt;button&gt;</code> element에 관련된 <code class="language-text">onClick</code>, <code class="language-text">disabled</code> 등의 props를 넣어 selector 역할을 하는 버튼을 렌더링해주고 있다. 여기서 좀 더 재사용성을 고려한 코드를 작성하기 위해 고민을 해보면, <code class="language-text">&lt;button&gt;</code>엘리먼트나 <code class="language-text">this.state.current</code>를 노출하는 부분에 다른 component를 사용하게끔 하는 방법을 생각해볼 수 있겠다. 이와 같이 동작하도록 render props를 이용해 코드를 다시 작성해보면 아래와 같다.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">class</span> <span class="token class-name">Navigator</span> <span class="token keyword">extends</span> <span class="token class-name">React<span class="token punctuation">.</span>Component</span> <span class="token punctuation">{</span>
+  <span class="token keyword">static</span> propTypes <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token keyword">default</span><span class="token punctuation">:</span> PropTypes<span class="token punctuation">.</span>number<span class="token punctuation">,</span>
+    min<span class="token punctuation">:</span> PropTypes<span class="token punctuation">.</span>number<span class="token punctuation">,</span>
+    max<span class="token punctuation">:</span> PropTypes<span class="token punctuation">.</span>number<span class="token punctuation">,</span>
+    children<span class="token punctuation">:</span> PropTypes<span class="token punctuation">.</span>func<span class="token punctuation">.</span>isRequired<span class="token punctuation">,</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token keyword">static</span> defaultProps <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token keyword">default</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+    min<span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+    max<span class="token punctuation">:</span> <span class="token number">10</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token function">constructor</span><span class="token punctuation">(</span>props<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">super</span><span class="token punctuation">(</span>props<span class="token punctuation">)</span>
+
+    <span class="token keyword">this</span><span class="token punctuation">.</span>state <span class="token operator">=</span> <span class="token punctuation">{</span>
+      current<span class="token punctuation">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>props<span class="token punctuation">.</span><span class="token keyword">default</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">this</span><span class="token punctuation">.</span>onPrevSelectorClick <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>onSelectorClick<span class="token punctuation">.</span><span class="token function">bind</span><span class="token punctuation">(</span><span class="token keyword">null</span><span class="token punctuation">,</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>onNextSelectorClick <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>onSelectorClick<span class="token punctuation">.</span><span class="token function">bind</span><span class="token punctuation">(</span><span class="token keyword">null</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token function-variable function">onSelectorClick</span> <span class="token operator">=</span> changeAmount <span class="token operator">=></span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">setState</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      current<span class="token punctuation">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>current <span class="token operator">+</span> changeAmount<span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token comment">// prev selector에 필요한 props들을 불러온다.</span>
+  <span class="token function-variable function">getPrevSelectorProps</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">(</span><span class="token punctuation">{</span>
+    onClick<span class="token punctuation">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>onPrevSelectorClick<span class="token punctuation">,</span>
+    disabled<span class="token punctuation">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>current <span class="token operator">===</span> <span class="token keyword">this</span><span class="token punctuation">.</span>props<span class="token punctuation">.</span>min<span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+  <span class="token comment">// next selector에 필요한 props들을 불러온다.</span>
+  <span class="token function-variable function">getNextSelectorProps</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">(</span><span class="token punctuation">{</span>
+    onClick<span class="token punctuation">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>onNextSelectorClick<span class="token punctuation">,</span>
+    disabled<span class="token punctuation">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>current <span class="token operator">===</span> <span class="token keyword">this</span><span class="token punctuation">.</span>props<span class="token punctuation">.</span>max<span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// children props로 받은 함수를 render props로 사용</span>
+    <span class="token keyword">const</span> renderProps <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>props<span class="token punctuation">.</span>children
+
+    <span class="token comment">// render props에 렌더링에 필요한 값들을 function props로 넣어주며 렌더링</span>
+    <span class="token keyword">return</span> <span class="token function">renderProps</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      current<span class="token punctuation">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>current<span class="token punctuation">,</span>
+      prevSelectorProps<span class="token punctuation">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">getPrevSelectorProps</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+      nextSelectorProps<span class="token punctuation">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">getNextSelectorProps</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">class</span> <span class="token class-name">App</span> <span class="token keyword">extends</span> <span class="token class-name">React<span class="token punctuation">.</span>Component</span> <span class="token punctuation">{</span>
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">(</span>
+      <span class="token comment">// Navigator의 children으로 selector와 현재 상태를 보여줄 component를 반환하는 function을 넣어준다.</span>
+      <span class="token comment">// 반환되는 component는 render prop 렌더링시 넣어준 function props를 사용 하고 있다.</span>
+      <span class="token operator">&lt;</span>Navigator<span class="token operator">></span>
+        <span class="token punctuation">{</span><span class="token punctuation">(</span><span class="token punctuation">{</span> current<span class="token punctuation">,</span> prevSelectorProps<span class="token punctuation">,</span> nextSelectorProps <span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">(</span>
+          <span class="token operator">&lt;</span>div<span class="token operator">></span>
+            <span class="token operator">&lt;</span>button <span class="token punctuation">{</span><span class="token operator">...</span>prevSelectorProps<span class="token punctuation">}</span><span class="token operator">></span><span class="token punctuation">{</span><span class="token string">'prev'</span><span class="token punctuation">}</span><span class="token operator">&lt;</span><span class="token operator">/</span>button<span class="token operator">></span>
+            <span class="token operator">&lt;</span>span<span class="token operator">></span><span class="token punctuation">{</span>current<span class="token punctuation">}</span><span class="token operator">&lt;</span><span class="token operator">/</span>span<span class="token operator">></span>
+            <span class="token operator">&lt;</span>button <span class="token punctuation">{</span><span class="token operator">...</span>nextSelectorProps<span class="token punctuation">}</span><span class="token operator">></span><span class="token punctuation">{</span><span class="token string">'next'</span><span class="token punctuation">}</span><span class="token operator">&lt;</span><span class="token operator">/</span>button<span class="token operator">></span>
+          <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
+        <span class="token punctuation">)</span><span class="token punctuation">}</span>
+      <span class="token operator">&lt;</span><span class="token operator">/</span>Navigator<span class="token operator">></span>
+    <span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>이제 <code class="language-text">Navigator</code> 내부의 selector나 현재 상태가 노출되는 부분에 다른 component를 사용할 수 있고 조건문 등을 이용하여 동적으로 렌더링이 가능해졌다.</p>
+<p>이와 같이, render prop를 사용하면 어떠한 공통된 동작이나 상태들을 캡슐화하고 동적으로 component에 해당 값들을 입혀 렌더링을 할 수 있다.</p>
+<p>하지만 이 코드에는 치명적인 문제점이 있다. 만약 <code class="language-text">&lt;button onClick={this.handleClick} {...prevSelectorProps}&gt;</code> 와 같이 내부 button element에 <code class="language-text">onClick</code> 이벤트 핸들러를 추가로 등록한다고 가정해보자. <code class="language-text">Navigator</code>에서 <code class="language-text">prevSelectorProps</code>를 불러오는 <code class="language-text">getPrevSelectorProps</code>를 다시 살펴보면 다음과 같다.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">// prev selector에 필요한 props들을 불러온다.</span>
+<span class="token function-variable function">getPrevSelectorProps</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">(</span><span class="token punctuation">{</span>
+  onClick<span class="token punctuation">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>onPrevSelectorClick<span class="token punctuation">,</span>
+  disabled<span class="token punctuation">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>current <span class="token operator">===</span> <span class="token keyword">this</span><span class="token punctuation">.</span>props<span class="token punctuation">.</span>min<span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span></code></pre></div>
+<p>여기서 포함되어있는 <code class="language-text">onClick</code> props로 인해 button element에 인라인으로 넣어준 <code class="language-text">onClick</code> 이벤트 핸들러는 override 될 것이다. 이로 인해 <code class="language-text">Navigator</code> component는 개발자가 의도하지 않은 동작을 실행하게 될 수도 있다. 이같은 오류는 props getter와 같은 패턴을 적용함으로써 해결할 수 있다.</p>
+<h3>prop getters</h3>
+<p>prop getters 패턴에선 render callback에 function props로 object가 아닌 function을 넣어준다. prop getters를 적용하여 다시 작성한 <code class="language-text">Navigator</code> 코드를 살펴보자.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">const</span> <span class="token function-variable function">callAll</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token operator">...</span>fns<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">(</span><span class="token operator">...</span>args<span class="token punctuation">)</span> <span class="token operator">=></span> fns<span class="token punctuation">.</span><span class="token function">forEach</span><span class="token punctuation">(</span>fn <span class="token operator">=></span> fn <span class="token operator">&amp;&amp;</span> <span class="token function">fn</span><span class="token punctuation">(</span><span class="token operator">...</span>args<span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+<span class="token keyword">class</span> <span class="token class-name">Navigator</span> <span class="token keyword">extends</span> <span class="token class-name">React<span class="token punctuation">.</span>Component</span> <span class="token punctuation">{</span>
+  <span class="token keyword">static</span> propTypes <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token keyword">default</span><span class="token punctuation">:</span> PropTypes<span class="token punctuation">.</span>number<span class="token punctuation">,</span>
+    min<span class="token punctuation">:</span> PropTypes<span class="token punctuation">.</span>number<span class="token punctuation">,</span>
+    max<span class="token punctuation">:</span> PropTypes<span class="token punctuation">.</span>number<span class="token punctuation">,</span>
+    children<span class="token punctuation">:</span> PropTypes<span class="token punctuation">.</span>func<span class="token punctuation">.</span>isRequired<span class="token punctuation">,</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token keyword">static</span> defaultProps <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token keyword">default</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+    min<span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+    max<span class="token punctuation">:</span> <span class="token number">10</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token function">constructor</span><span class="token punctuation">(</span>props<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">super</span><span class="token punctuation">(</span>props<span class="token punctuation">)</span>
+
+    <span class="token keyword">this</span><span class="token punctuation">.</span>state <span class="token operator">=</span> <span class="token punctuation">{</span>
+      current<span class="token punctuation">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>props<span class="token punctuation">.</span><span class="token keyword">default</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">this</span><span class="token punctuation">.</span>onPrevSelectorClick <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>onSelectorClick<span class="token punctuation">.</span><span class="token function">bind</span><span class="token punctuation">(</span><span class="token keyword">null</span><span class="token punctuation">,</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>onNextSelectorClick <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>onSelectorClick<span class="token punctuation">.</span><span class="token function">bind</span><span class="token punctuation">(</span><span class="token keyword">null</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token function-variable function">onSelectorClick</span> <span class="token operator">=</span> changeAmount <span class="token operator">=></span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">setState</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      current<span class="token punctuation">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>current <span class="token operator">+</span> changeAmount<span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token comment">// prev selector의 prop getter</span>
+  <span class="token function-variable function">getPrevSelectorProps</span> <span class="token operator">=</span> <span class="token punctuation">(</span>ownProps <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">(</span><span class="token punctuation">{</span>
+    disabled<span class="token punctuation">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>current <span class="token operator">===</span> <span class="token keyword">this</span><span class="token punctuation">.</span>props<span class="token punctuation">.</span>min<span class="token punctuation">,</span>
+    <span class="token operator">...</span>ownProps<span class="token punctuation">,</span> <span class="token comment">// ownProps와 함께 구성</span>
+    onClick<span class="token punctuation">:</span> <span class="token function">callAll</span><span class="token punctuation">(</span>ownProps<span class="token punctuation">.</span>onClick<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>onPrevSelectorClick<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token comment">// ownProps로 넘겨진 onClick handler도 함께 실행되도록 함</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+  <span class="token comment">// next selector의 prop getter</span>
+  <span class="token function-variable function">getNextSelectorProps</span> <span class="token operator">=</span> <span class="token punctuation">(</span>ownProps <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">(</span><span class="token punctuation">{</span>
+    disabled<span class="token punctuation">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>current <span class="token operator">===</span> <span class="token keyword">this</span><span class="token punctuation">.</span>props<span class="token punctuation">.</span>max<span class="token punctuation">,</span>
+    <span class="token operator">...</span>ownProps<span class="token punctuation">,</span> <span class="token comment">// ownProps와 함께 구성</span>
+    onClick<span class="token punctuation">:</span> <span class="token function">callAll</span><span class="token punctuation">(</span>ownProps<span class="token punctuation">.</span>onClick<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>onNextSelectorClick<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token comment">// ownProps로 넘겨진 onClick handler도 함께 실행되도록 함</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// children props로 받은 함수를 render props로 사용</span>
+    <span class="token keyword">const</span> renderProps <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>props<span class="token punctuation">.</span>children
+
+    <span class="token comment">// render props에 렌더링에 필요한 값들을 function props로 넣어주며 렌더링</span>
+    <span class="token keyword">return</span> <span class="token function">renderProps</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      current<span class="token punctuation">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>current<span class="token punctuation">,</span>
+      getPrevSelectorProps<span class="token punctuation">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>getPrevSelectorProps<span class="token punctuation">,</span>
+      getNextSelectorProps<span class="token punctuation">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>getNextSelectorProps<span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>눈여겨봐야할 부분은 <code class="language-text">getPrevSelectorProps()</code>와 <code class="language-text">getNextSelectorProps()</code>의 달라진 구현 내용과 <code class="language-text">render()</code>에서 render callback에 function props로 어떤값을 넘겨주고 있는가이다.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token function-variable function">getPrevSelectorProps</span> <span class="token operator">=</span> <span class="token punctuation">(</span>ownProps <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">(</span><span class="token punctuation">{</span>
+  disabled<span class="token punctuation">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>current <span class="token operator">===</span> <span class="token keyword">this</span><span class="token punctuation">.</span>props<span class="token punctuation">.</span>min<span class="token punctuation">,</span>
+  <span class="token operator">...</span>ownProps<span class="token punctuation">,</span> <span class="token comment">// ownProps와 함께 구성</span>
+  onClick<span class="token punctuation">:</span> <span class="token function">callAll</span><span class="token punctuation">(</span>ownProps<span class="token punctuation">.</span>onClick<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>onPrevSelectorClick<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token comment">// ownProps로 넘겨진 onClick handler도 함께 실행되도록 함</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span></code></pre></div>
+<p><code class="language-text">getPrevSelectorProps()</code>를 구현 내용을 보면 <code class="language-text">ownProps</code> 인자로 받아 <code class="language-text">Navigator</code>에 필요한 기존 props들과 함께 구성하고 있다. 또한 <code class="language-text">onClick</code>에는 기존 핸들러와 <code class="language-text">ownProps</code>로 넘겨진 <code class="language-text">onClick</code>핸들러를 <code class="language-text">callAll()</code>로 묶어주고 있다. <code class="language-text">callAll()</code>은 인자로 넘겨진 function들을 차례로 실행해주는 util function이다.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// children props로 받은 함수를 render props로 사용</span>
+    <span class="token keyword">const</span> renderProps <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>props<span class="token punctuation">.</span>children<span class="token punctuation">;</span>
+
+    <span class="token comment">// render props에 렌더링에 필요한 값들을 function props로 넣어주며 렌더링</span>
+    <span class="token keyword">return</span> <span class="token function">renderProps</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+        current<span class="token punctuation">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>current<span class="token punctuation">,</span>
+        getPrevSelectorProps<span class="token punctuation">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>getPrevSelectorProps<span class="token punctuation">,</span>
+        getNextSelectorProps<span class="token punctuation">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>getNextSelectorProps<span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>다음 <code class="language-text">render()</code>를 살펴 보면, render callback의 function props로 일반 object를 넘겨주던 이전 코드와는 달리 <code class="language-text">this.getPrevSelectorProps</code>, <code class="language-text">this.getNextSelectorProps</code>와 같은 function을 넘겨주고 있다. 이것들이 곧 prop getter이며, render callback에 필요한 props를 적절하게 가져올 수 있도록 도와준다.</p>
+<p>아래는 prop getters 패턴이 적용된 <code class="language-text">Navigator</code>를 사용하는 예시이다.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token operator">&lt;</span>Navigator<span class="token operator">></span>
+  <span class="token punctuation">{</span><span class="token punctuation">(</span><span class="token punctuation">{</span> current<span class="token punctuation">,</span> getPrevSelectorProps<span class="token punctuation">,</span> getNextSelectorProps <span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">(</span>
+    <span class="token operator">&lt;</span>div<span class="token operator">></span>
+      <span class="token operator">&lt;</span>button
+        <span class="token punctuation">{</span><span class="token operator">...</span><span class="token function">getPrevSelectorProps</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+          <span class="token function">onClick</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'Prev Selector Clicked!'</span><span class="token punctuation">)</span>
+          <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">}</span>
+      <span class="token operator">></span>
+        <span class="token punctuation">{</span><span class="token string">'prev'</span><span class="token punctuation">}</span>
+      <span class="token operator">&lt;</span><span class="token operator">/</span>button<span class="token operator">></span>
+      <span class="token operator">&lt;</span>span<span class="token operator">></span><span class="token punctuation">{</span>current<span class="token punctuation">}</span><span class="token operator">&lt;</span><span class="token operator">/</span>span<span class="token operator">></span>
+      <span class="token operator">&lt;</span>button
+        <span class="token punctuation">{</span><span class="token operator">...</span><span class="token function">getNextSelectorProps</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+          <span class="token function">onClick</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'Next Selector Clicked!'</span><span class="token punctuation">)</span>
+          <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">}</span>
+      <span class="token operator">></span>
+        <span class="token punctuation">{</span><span class="token string">'next'</span><span class="token punctuation">}</span>
+      <span class="token operator">&lt;</span><span class="token operator">/</span>button<span class="token operator">></span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
+  <span class="token punctuation">)</span><span class="token punctuation">}</span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>Navigator<span class="token operator">></span></code></pre></div>
+<p><code class="language-text">getPrevSelectorProps</code>와 <code class="language-text">getNextSelectorProps</code>를 props로 받아 임의로 추가된 <code class="language-text">onClick</code> 핸들러를 넣어주고 실행하여 반환되는 값으로 props를 넣어주고 있다. 이제 custom <code class="language-text">onClick</code> 이벤트를 추가로 넣어도 override되지 않고 사용자 의도대로 동작 가능한 <code class="language-text">Navigator</code>를 구현할 수 있게 되었다. 이와 같이 render props와 prop getters를 적절하게 이용하면 렌더링 관심사를 사용자에게로 분리하여 공통 핵심 로직에 집중한 component를 구현할 수 있다.</p>
+<h2>참고</h2>
+<ul>
+<li><a href="https://reactjs.org/docs/higher-order-components.html">https://reactjs.org/docs/higher-order-components.html</a></li>
+<li><a href="https://reactjs.org/docs/render-props.html">https://reactjs.org/docs/render-props.html</a></li>
+<li><a href="https://cdb.reacttraining.com/use-a-render-prop-50de598f11ce">https://cdb.reacttraining.com/use-a-render-prop-50de598f11ce</a></li>
+<li><a href="https://cdb.reacttraining.com/use-a-render-prop-50de598f11ce">https://blog.kentcdodds.com/how-to-give-rendering-control-to-users-with-prop-getters-549eaef76acf</a></li>
+</ul></div><hr style="margin-bottom:1.75rem"/><div style="display:flex;margin-bottom:4.375rem"><div class=" gatsby-image-wrapper" style="position:relative;overflow:hidden;display:inline-block;width:50px;height:50px;margin-right:0.875rem;margin-bottom:0;min-width:50px;border-radius:100%"><img src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAIEBQP/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAY943zFXEZu0Exm//8QAHBAAAgICAwAAAAAAAAAAAAAAAQIDEhEhAAQ0/9oACAEBAAEFAogrcVUJaE5ixZqgCbXYas8fnXa//8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAIBAAAQMCBwAAAAAAAAAAAAAAAQACEBEhAxITM0FRgf/aAAgBAQAGPwIBzQebogYbW9FbZKzeLUpcQaJsf//EABsQAAIDAQEBAAAAAAAAAAAAAAERACExgUGR/9oACAEBAAE/IRn185G8HDYxwU3FvCQ6gvgRsLpkwtSgBUIkjtOUCfZ//9oADAMBAAIAAwAAABAw8H3/xAAYEQACAwAAAAAAAAAAAAAAAAAAARAhMf/aAAgBAwEBPxBFi2P/xAAYEQACAwAAAAAAAAAAAAAAAAAAARARMf/aAAgBAgEBPxBloeR//8QAHRABAAICAgMAAAAAAAAAAAAAAQARIVExQYHB0f/aAAgBAQABPxAgGcHgV0+xoAEo+dajSd0i6gcZGF50iZtdUtz1CgO9aeoWg0iMcaiOVsmnMXdhbU//2Q==" alt="Jaeseok Kang" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition:opacity 0.5s;transition-delay:0.25s;border-radius:50%"/><noscript><picture><img width="50" height="50" srcset="/static/d5ca6218c1d941d058b722e784d13c1c/7e494/profile.jpg 1x,
+/static/d5ca6218c1d941d058b722e784d13c1c/36cc2/profile.jpg 1.5x,
+/static/d5ca6218c1d941d058b722e784d13c1c/0a3a6/profile.jpg 2x,
+/static/d5ca6218c1d941d058b722e784d13c1c/75d16/profile.jpg 3x" src="/static/d5ca6218c1d941d058b722e784d13c1c/7e494/profile.jpg" alt="Jaeseok Kang" style="position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div><p>Written by <strong>Jaeseok Kang</strong> who lives and works in San Francisco building useful things.<!-- --> <a href="https://twitter.com/kang89kr">You should follow him on Twitter</a></p></div><ul style="display:flex;flex-wrap:wrap;justify-content:space-between;list-style:none;padding:0"><li><a rel="prev" href="/2018-01-12-redux 비동기 action 처리/">← <!-- -->redux 비동기 action 처리</a></li><li><a rel="next" href="/2018-12-05-react-conf-2018-후기/">React conf 2018 후기<!-- --> →</a></li></ul></main><footer>© <!-- -->2019<!-- -->, Built with<!-- --> <a href="https://www.gatsbyjs.org">Gatsby</a></footer></div></div></div><script>
+  
+  
+  if(true) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  }
+  if (typeof ga === "function") {
+    ga('create', 'undefined', 'auto', {});
+      
+      
+      
+      }
+      </script><script id="gatsby-script-loader">/*<![CDATA[*/window.page={"componentChunkName":"component---src-templates-blog-post-js","jsonName":"2018-01-21-코드-재사용을-통한-react-component-구현-9b3","path":"/2018-01-21-코드-재사용을-통한-React-component-구현/"};window.dataPath="352/path---2018-01-21-코드-재사용을-통한-react-component-구현-9-b-3-717-i7372cm8awpwG5H6drYtYmv5Kk";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-08bf93dbe1817a5fe53a.js"],"component---node-modules-gatsby-plugin-offline-app-shell-js":["/component---node-modules-gatsby-plugin-offline-app-shell-js-62c8b80299fb18d54889.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-4a9db2c0dff77452247a.js"],"component---src-pages-404-js":["/component---src-pages-404-js-4fe43a0737cc5411f1a8.js"],"component---src-pages-index-js":["/component---src-pages-index-js-2fdaa493b902b408413b.js"],"pages-manifest":["/pages-manifest-b072692a1b813c023eda.js"]};/*]]>*/</script><script src="/component---src-templates-blog-post-js-4a9db2c0dff77452247a.js" async=""></script><script src="/0-615ae0ea6b40203eb5b6.js" async=""></script><script src="/app-08bf93dbe1817a5fe53a.js" async=""></script><script src="/styles-bd5bbf25ac9c5840e2e5.js" async=""></script><script src="/webpack-runtime-5c0b89595b5ea613eefc.js" async=""></script></body></html>
