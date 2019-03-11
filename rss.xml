@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[jaeseokk.log]]></title><description><![CDATA[jaeseokk.log]]></description><link>https://jaeseokk.dev/</link><generator>RSS for Node</generator><lastBuildDate>Mon, 11 Mar 2019 16:39:25 GMT</lastBuildDate><item><title><![CDATA[React conf 2018 후기]]></title><description><![CDATA[좋은 기회를 얻어 라스베가스에서 이틀간 진행된  React Conf 18 에 다녀왔다. 올해 React conf에선 Hooks, Concurrent React 등의 react의 새로운 컨셉의 소개와 더불어 전세계 개발자들과 함께 더 나은 UI/UX…]]></description><link>https://jaeseokk.dev//2018-12-05-react-conf-2018-후기/</link><guid isPermaLink="false">https://jaeseokk.dev//2018-12-05-react-conf-2018-후기/</guid><pubDate>Wed, 05 Dec 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;좋은 기회를 얻어 라스베가스에서 이틀간 진행된 &lt;a href=&quot;https://conf.reactjs.org/&quot;&gt;React Conf 18&lt;/a&gt;에 다녀왔다. 올해 React conf에선 Hooks, Concurrent React 등의 react의 새로운 컨셉의 소개와 더불어 전세계 개발자들과 함께 더 나은 UI/UX 개발에 대한 고민과 문제점에 대한 접근 방식, 그리고 이를 해결하기 위해 어떤 노력하고 있는지에 대한 여러 경험을 듣고 공유할 수 있었다.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[jaeseokk.log]]></title><description><![CDATA[jaeseokk.log]]></description><link>https://jaeseokk.dev/</link><generator>RSS for Node</generator><lastBuildDate>Mon, 11 Mar 2019 16:51:33 GMT</lastBuildDate><item><title><![CDATA[React conf 2018 후기]]></title><description><![CDATA[좋은 기회를 얻어 라스베가스에서 이틀간 진행된  React Conf 18 에 다녀왔다. 올해 React conf에선 Hooks, Concurrent React 등의 react의 새로운 컨셉의 소개와 더불어 전세계 개발자들과 함께 더 나은 UI/UX…]]></description><link>https://jaeseokk.dev//2018-12-05-react-conf-2018-후기/</link><guid isPermaLink="false">https://jaeseokk.dev//2018-12-05-react-conf-2018-후기/</guid><pubDate>Wed, 05 Dec 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;좋은 기회를 얻어 라스베가스에서 이틀간 진행된 &lt;a href=&quot;https://conf.reactjs.org/&quot;&gt;React Conf 18&lt;/a&gt;에 다녀왔다. 올해 React conf에선 Hooks, Concurrent React 등의 react의 새로운 컨셉의 소개와 더불어 전세계 개발자들과 함께 더 나은 UI/UX 개발에 대한 고민과 문제점에 대한 접근 방식, 그리고 이를 해결하기 위해 어떤 노력하고 있는지에 대한 여러 경험을 듣고 공유할 수 있었다.&lt;/p&gt;
 &lt;h2&gt;React의 오늘과 미래&lt;/h2&gt;
 &lt;p&gt;첫 keynote는 React의 현재 위치와 앞으로의 비전에 대한 세션이었다.&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/jaeseokk.dev/static/8aae24452e5c6e3ac09663754cc3b261/33b65/react-jquery.png&quot;
+    href=&quot;/static/8aae24452e5c6e3ac09663754cc3b261/33b65/react-jquery.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -23,13 +23,13 @@
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;image&quot;
         title=&quot;&quot;
-        src=&quot;/jaeseokk.dev/static/8aae24452e5c6e3ac09663754cc3b261/6255c/react-jquery.png&quot;
-        srcset=&quot;/jaeseokk.dev/static/8aae24452e5c6e3ac09663754cc3b261/375dc/react-jquery.png 148w,
-/jaeseokk.dev/static/8aae24452e5c6e3ac09663754cc3b261/6b157/react-jquery.png 295w,
-/jaeseokk.dev/static/8aae24452e5c6e3ac09663754cc3b261/6255c/react-jquery.png 590w,
-/jaeseokk.dev/static/8aae24452e5c6e3ac09663754cc3b261/dcf9c/react-jquery.png 885w,
-/jaeseokk.dev/static/8aae24452e5c6e3ac09663754cc3b261/43c8a/react-jquery.png 1180w,
-/jaeseokk.dev/static/8aae24452e5c6e3ac09663754cc3b261/33b65/react-jquery.png 1242w&quot;
+        src=&quot;/static/8aae24452e5c6e3ac09663754cc3b261/6255c/react-jquery.png&quot;
+        srcset=&quot;/static/8aae24452e5c6e3ac09663754cc3b261/375dc/react-jquery.png 148w,
+/static/8aae24452e5c6e3ac09663754cc3b261/6b157/react-jquery.png 295w,
+/static/8aae24452e5c6e3ac09663754cc3b261/6255c/react-jquery.png 590w,
+/static/8aae24452e5c6e3ac09663754cc3b261/dcf9c/react-jquery.png 885w,
+/static/8aae24452e5c6e3ac09663754cc3b261/43c8a/react-jquery.png 1180w,
+/static/8aae24452e5c6e3ac09663754cc3b261/33b65/react-jquery.png 1242w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -61,7 +61,7 @@
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/jaeseokk.dev/static/21cc277ceae5f01bc82fdd0b5a0eb67f/7a4c7/wrapper-hell.png&quot;
+    href=&quot;/static/21cc277ceae5f01bc82fdd0b5a0eb67f/7a4c7/wrapper-hell.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -80,13 +80,13 @@
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;image&quot;
         title=&quot;&quot;
-        src=&quot;/jaeseokk.dev/static/21cc277ceae5f01bc82fdd0b5a0eb67f/6255c/wrapper-hell.png&quot;
-        srcset=&quot;/jaeseokk.dev/static/21cc277ceae5f01bc82fdd0b5a0eb67f/375dc/wrapper-hell.png 148w,
-/jaeseokk.dev/static/21cc277ceae5f01bc82fdd0b5a0eb67f/6b157/wrapper-hell.png 295w,
-/jaeseokk.dev/static/21cc277ceae5f01bc82fdd0b5a0eb67f/6255c/wrapper-hell.png 590w,
-/jaeseokk.dev/static/21cc277ceae5f01bc82fdd0b5a0eb67f/dcf9c/wrapper-hell.png 885w,
-/jaeseokk.dev/static/21cc277ceae5f01bc82fdd0b5a0eb67f/43c8a/wrapper-hell.png 1180w,
-/jaeseokk.dev/static/21cc277ceae5f01bc82fdd0b5a0eb67f/7a4c7/wrapper-hell.png 1244w&quot;
+        src=&quot;/static/21cc277ceae5f01bc82fdd0b5a0eb67f/6255c/wrapper-hell.png&quot;
+        srcset=&quot;/static/21cc277ceae5f01bc82fdd0b5a0eb67f/375dc/wrapper-hell.png 148w,
+/static/21cc277ceae5f01bc82fdd0b5a0eb67f/6b157/wrapper-hell.png 295w,
+/static/21cc277ceae5f01bc82fdd0b5a0eb67f/6255c/wrapper-hell.png 590w,
+/static/21cc277ceae5f01bc82fdd0b5a0eb67f/dcf9c/wrapper-hell.png 885w,
+/static/21cc277ceae5f01bc82fdd0b5a0eb67f/43c8a/wrapper-hell.png 1180w,
+/static/21cc277ceae5f01bc82fdd0b5a0eb67f/7a4c7/wrapper-hell.png 1244w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -119,7 +119,7 @@
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/jaeseokk.dev/static/0c43a1d95305b150e6ba38d10ae54c57/b2171/react-logo.png&quot;
+    href=&quot;/static/0c43a1d95305b150e6ba38d10ae54c57/b2171/react-logo.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -138,10 +138,10 @@
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;image&quot;
         title=&quot;&quot;
-        src=&quot;/jaeseokk.dev/static/0c43a1d95305b150e6ba38d10ae54c57/b2171/react-logo.png&quot;
-        srcset=&quot;/jaeseokk.dev/static/0c43a1d95305b150e6ba38d10ae54c57/402cf/react-logo.png 148w,
-/jaeseokk.dev/static/0c43a1d95305b150e6ba38d10ae54c57/c5041/react-logo.png 295w,
-/jaeseokk.dev/static/0c43a1d95305b150e6ba38d10ae54c57/b2171/react-logo.png 364w&quot;
+        src=&quot;/static/0c43a1d95305b150e6ba38d10ae54c57/b2171/react-logo.png&quot;
+        srcset=&quot;/static/0c43a1d95305b150e6ba38d10ae54c57/402cf/react-logo.png 148w,
+/static/0c43a1d95305b150e6ba38d10ae54c57/c5041/react-logo.png 295w,
+/static/0c43a1d95305b150e6ba38d10ae54c57/b2171/react-logo.png 364w&quot;
         sizes=&quot;(max-width: 364px) 100vw, 364px&quot;
       /&gt;
     &lt;/span&gt;
@@ -159,7 +159,7 @@
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/jaeseokk.dev/static/a2fae9f72b42e031e98a69cb7f94d9b3/1fd28/spinner.png&quot;
+    href=&quot;/static/a2fae9f72b42e031e98a69cb7f94d9b3/1fd28/spinner.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -178,10 +178,10 @@
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;image&quot;
         title=&quot;&quot;
-        src=&quot;/jaeseokk.dev/static/a2fae9f72b42e031e98a69cb7f94d9b3/1fd28/spinner.png&quot;
-        srcset=&quot;/jaeseokk.dev/static/a2fae9f72b42e031e98a69cb7f94d9b3/1c0c5/spinner.png 148w,
-/jaeseokk.dev/static/a2fae9f72b42e031e98a69cb7f94d9b3/ccb1e/spinner.png 295w,
-/jaeseokk.dev/static/a2fae9f72b42e031e98a69cb7f94d9b3/1fd28/spinner.png 418w&quot;
+        src=&quot;/static/a2fae9f72b42e031e98a69cb7f94d9b3/1fd28/spinner.png&quot;
+        srcset=&quot;/static/a2fae9f72b42e031e98a69cb7f94d9b3/1c0c5/spinner.png 148w,
+/static/a2fae9f72b42e031e98a69cb7f94d9b3/ccb1e/spinner.png 295w,
+/static/a2fae9f72b42e031e98a69cb7f94d9b3/1fd28/spinner.png 418w&quot;
         sizes=&quot;(max-width: 418px) 100vw, 418px&quot;
       /&gt;
     &lt;/span&gt;
