@@ -52,7 +52,8 @@
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
     "serve": "gatsby serve",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "add-domain": "echo \"jaeseokk.dev\" > public/CNAME",
+    "deploy": "gatsby build --prefix-paths && yarn add-domain && gh-pages -d public",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   }
 }
