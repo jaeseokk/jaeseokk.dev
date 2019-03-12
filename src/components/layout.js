@@ -24,7 +24,6 @@ class Layout extends React.Component {
               marginTop: 0,
               textAlign: 'center',
               fontFamily: '"Abril Fatface", serif',
-              fontWeight: 700,
             }}
           >
             <Link
