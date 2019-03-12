@@ -12,11 +12,20 @@ Wordpress2016.overrideThemeStyles = () => {
     h1: {
       fontFamily: ['PT Sans', 'Helvetica', 'Arial', 'sans-serif'].join(','),
     },
+    body: {
+      backgroundColor: '#fffffb',
+    },
   }
 }
 
 const typography = new Typography({
   ...Wordpress2016,
+  googleFonts: [
+    {
+      name: 'Abril Fatface',
+      styles: ['400'],
+    },
+  ],
   headerFontFamily: ['PT Sans', 'Helvetica', 'Arial', 'sans-serif'],
   bodyFontFamily: ['PT Sans', 'Helvetica', 'Arial', 'sans-serif'],
 })
