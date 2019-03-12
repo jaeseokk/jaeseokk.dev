@@ -4,7 +4,7 @@ module.exports = {
     author: `Jaeseok Kang`,
     description: ``,
     siteUrl: `https://jaeseokk.dev/`,
-    image: `/icons/icon-512x512.png`,
+    image: `icons/icon-512x512.png`,
     social: {
       twitter: `kang89kr`,
     },
