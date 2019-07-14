@@ -26,45 +26,44 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-d0543bbc890f83875557.js"
+    "url": "webpack-runtime-1cf66464bd5a8ca629fa.js"
   },
   {
-    "url": "styles.7a7fd10b08846091aeed.css"
+    "url": "styles.2f2933dc343b474e635f.css"
   },
   {
-    "url": "styles-bd5bbf25ac9c5840e2e5.js"
+    "url": "styles-43f85c180cd5ba30c760.js"
   },
   {
-    "url": "app-50d1fc0f465bed22a767.js"
+    "url": "app-d10167b01a70e44c4da1.js"
   },
   {
-    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-62c8b80299fb18d54889.js"
+    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-808f6b02b7cd6cda3c8c.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "9b58f6c6d0c88a3d82bbae00b6712ccb"
+    "revision": "cb3d76dd956fbfb674dd4a4839cb5737"
   },
   {
-    "url": "0-615ae0ea6b40203eb5b6.js"
+    "url": "0-13b05021484846b9c2b2.js"
   },
   {
-    "url": "component---src-pages-404-js-36942b13764f6f930e05.js"
+    "url": "component---src-pages-404-js-8357c3d5f86d2b932080.js"
   },
   {
-    "url": "static/d/160/path---404-html-516-62a-ftPUbc4Fsg030hbL5JGWt39KrI.json"
-  },
-  {
-    "url": "static/d/520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E.json"
+    "url": "page-data/404.html/page-data.json",
+    "revision": "571b4f928192a6f87eaf2793a2c0ac71"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "9ed9a7d3e0749970ccdbe55b2d7bf936"
+    "revision": "d30b78e1ab3e5cf50a6e6c1345486ae3"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerRoute(/(\.js$|\.css$|static\/)/, workbox.strategies.cacheFirst(), 'GET');
+workbox.routing.registerRoute(/^https?:.*\page-data\/.*\/page-data\.json/, workbox.strategies.networkFirst(), 'GET');
 workbox.routing.registerRoute(/^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/, workbox.strategies.staleWhileRevalidate(), 'GET');
 workbox.routing.registerRoute(/^https?:\/\/fonts\.googleapis\.com\/css/, workbox.strategies.staleWhileRevalidate(), 'GET');
 
