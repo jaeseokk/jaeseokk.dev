@@ -5,6 +5,7 @@ exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
 
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
+  const cv = path.resolve(`./src/templates/cv.js`)
   return graphql(
     `
       {
@@ -18,7 +19,8 @@ exports.createPages = ({ graphql, actions }) => {
                 slug
               }
               frontmatter {
-                title
+                title,
+                template
               }
             }
           }
@@ -36,10 +38,11 @@ exports.createPages = ({ graphql, actions }) => {
     posts.forEach((post, index) => {
       const previous = index === posts.length - 1 ? null : posts[index + 1].node
       const next = index === 0 ? null : posts[index - 1].node
+      const template = post.node.frontmatter.template === 'cv' ? cv : blogPost
 
       createPage({
         path: post.node.fields.slug,
-        component: blogPost,
+        component: cv,
         context: {
           slug: post.node.fields.slug,
           previous,

@@ -1,0 +1,47 @@
+body {
+  word-break: keep-all;
+  word-wrap: break-word;
+}
+
+a {
+  box-shadow: none;
+  text-decoration: underline;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+h2 {
+  border-bottom: 1px solid #eaecef;
+  padding-bottom: 0.6rem;
+  margin-bottom: 1.15rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+  margin-top: 2rem;
+}
+
+ul {
+  margin-left: 1.75rem;
+}
+
+blockquote {
+  margin-left: 0.5rem;
+  font-size: 1rem;
+}
+
+.bio {
+  margin-bottom: 1.5rem;
+}
+
+.bio img {
+  margin: 0 0.3rem 0 0;
+}
+
+.bio > div {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
