@@ -29,7 +29,18 @@ template: 'cv'
 생산성, 효율적인 커뮤니케이션, 함께 성장할 수 있는 환경 등 성숙한 개발 문화 만들기에도 관심이 많습니다.
 
 ## Experience
-### LINE Financial Plus/LINE Biz Plus (2018.6 ~ 현재)
+### 하우빌드 (2021.2 ~ 2023.12)
+  * 프론트엔드 챕터 리드
+  * 서비스 전반에 활용되는 디자인 시스템 설계 및 구현체 개발
+  * 빠른 배포와 실험을 위한 CI/CD 구축
+  * 건축 신청 서비스 개발 및 운영
+    * https://www.howbuild.com 
+  * 건축 설계 프로젝트 수주 플랫폼 개발 및 운영
+    * https://marketplace.howbuild.com
+  * BIM(Building Information Model)을 활용한 수량 산출 및 내역서 생성 서비스 개발 및 운영
+    * https://fender.howbuild.com
+
+### LINE Financial Plus/LINE Biz Plus (2018.6 ~ 2021.2)
   * 가상화폐 거래소 서비스 BITBOX/BITFRONT 개발 및 운영
 
 #### 암호화폐 거래소 BITBOX/BITFRONT
@@ -38,7 +49,7 @@ template: 'cv'
 
   * https://www.bitfront.me
   * 팀 내 가이드(행동 강령, 이슈 관리, 버전 관리, 코드스타일 가이드, 테스트, 코드리뷰 등) 수립을 주도하여 진행. 논의를 토대로 작성한 가이드를 팀 구성원들에게 공유
-  * ES2015+, vue.js 등을 활용한 거래소 서비스 UI 개발
+  * ES2015+, vue.js 등을 활용한 거래소 서비스 프론트엔드 개발
   * storybook 도구를 활용한 UI 개발 및 테스트
     * UI 컴포넌트 개발 생산성 향상 및 '눈으로 확인하는 단위 테스트' 실천 장려
   * 생산성 향상을 위한 도구 개발
